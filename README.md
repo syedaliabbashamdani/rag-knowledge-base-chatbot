@@ -186,7 +186,7 @@ The generated answer is returned to the user.
 
 The n8n workflow processes knowledge, generates chunks and embeddings, and prepares the knowledge base for retrieval.
 
-![RAG Workflow](screenshots/rag-workflow.png)
+![image alt](https://github.com/syedaliabbashamdani/rag-knowledge-base-chatbot/blob/5ca9b2a0d1c761ffe4742285d2da7f6150a92b0a/screenshots/image%20(6).png)
 
 ---
 
