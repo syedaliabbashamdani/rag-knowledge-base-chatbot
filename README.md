@@ -218,7 +218,7 @@ The chatbot receives a customer question and generates an answer using retrieved
 
 Example of the completed question-answering workflow.
 
-![Successful Answer](screenshots/successful-answer.png)
+![image alt](https://github.com/syedaliabbashamdani/rag-knowledge-base-chatbot/blob/a0a8ba5f47a72c8ac0930883989942f6a79b6b7d/screenshots/Screenshot%202026-11-11%20132614.jpg)
 
 ---
 
