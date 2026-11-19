@@ -194,7 +194,7 @@ The n8n workflow processes knowledge, generates chunks and embeddings, and prepa
 
 Example of the successful knowledge processing workflow.
 
-![Knowledge Processing](screenshots/knowledge-processing.png)
+![image alt](https://github.com/syedaliabbashamdani/rag-knowledge-base-chatbot/blob/1fa286492b858f75046c07fb404153a4dfe401ee/screenshots/Screenshot%202026-11-11%20125436.jpg)
 
 ---
 
