@@ -210,7 +210,7 @@ Processed chunks and embeddings stored for retrieval.
 
 The chatbot receives a customer question and generates an answer using retrieved knowledge.
 
-![AI Question Answer](screenshots/question-answer.png)
+![image alt](https://github.com/syedaliabbashamdani/rag-knowledge-base-chatbot/blob/1b85b0b1aef008f8f2d969c04651b0bd5a08c395/screenshots/image%20(9).png)
 
 ---
 
