@@ -220,34 +220,6 @@ My work included:
 
 ---
 
-# 📁 Project Structure
-
-```text
-rag-knowledge-base-chatbot/
-│
-├── README.md
-│
-├── screenshots/
-│   ├── rag-workflow.png
-│   ├── knowledge-processing.png
-│   ├── stored-knowledge.png
-│   ├── question-answer.png
-│   └── successful-answer.png
-│
-└── workflow/
-    └── rag-knowledge-base-chatbot.json
-```
-
----
-
-# 🔐 Security
-
-This repository does **not** contain private credentials.
-
-API keys, access tokens, passwords, OAuth credentials, and other sensitive information must be configured separately inside the user's n8n environment.
-
----
-
 # 🚀 Project Status
 
 **Completed ✅**
