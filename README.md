@@ -202,7 +202,7 @@ Example of the successful knowledge processing workflow.
 
 Processed chunks and embeddings stored for retrieval.
 
-![Stored Knowledge](screenshots/stored-knowledge.png)
+![image alt](https://github.com/syedaliabbashamdani/rag-knowledge-base-chatbot/blob/0d01d68b1cbe4318b23068c51a1eb96519bb1ba3/screenshots/image%20(7).png)
 
 ---
 
