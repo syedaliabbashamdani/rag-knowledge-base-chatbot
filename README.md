@@ -42,37 +42,68 @@ The system allows users to ask questions in natural language and receive answers
 
 ## ⚙️ How It Works
 
+## ⚙️ RAG Workflow Architecture
+
 ### Knowledge Processing
 
-```text
-Knowledge Source
-      ↓
-Document Processing
-      ↓
-Text Chunking
-      ↓
-Embeddings
-      ↓
-Knowledge Storage
+The following diagram illustrates the complete AI-powered knowledge base workflow, from collecting knowledge sources to processing, embedding generation, and storing information for AI-powered retrieval.
+
+```mermaid
+flowchart TD
+    A["📚 Knowledge Source<br/>PDF, DOCX, Website & Google Sheets"] --> B["⚙️ Document Processing<br/>Extract & Clean Text"]
+    B --> C["✂️ Text Chunking<br/>Split Documents into Smaller Chunks"]
+    C --> D["🔢 Embeddings Generation<br/>Convert Text into Vector Embeddings"]
+    D --> E["🗄️ Knowledge Storage<br/>Store Vectors & Metadata"]
+
+    F["🤖 AI Embedding Model"] -.-> D
+    G["🔗 n8n Automation"] -.-> B
+    G -.-> C
+    G -.-> E
 ```
+
+### Workflow Components
+
+1. **Knowledge Source:** Collect data from PDFs, DOCX files, websites, and Google Sheets.
+2. **Document Processing:** Extract and clean text from the collected documents.
+3. **Text Chunking:** Divide large documents into smaller, manageable text sections.
+4. **Embeddings Generation:** Convert text chunks into numerical vector representations using an embedding model.
+5. **Knowledge Storage:** Store text chunks, embeddings, and metadata in a vector database or knowledge store.
+
+**Purpose:** This RAG ingestion pipeline prepares external knowledge for AI-powered search, retrieval, and question answering.
+
 
 ### Question Answering
 
-```text
-User Question
-      ↓
-n8n
-      ↓
-Knowledge Retrieval
-      ↓
-Relevant Context
-      ↓
-Google Gemini
-      ↓
-AI Answer
-      ↓
-User
+
+## 🤖 RAG Workflow – AI Question Answering
+
+The following diagram illustrates how a user submits a question, n8n retrieves relevant information from the knowledge base, and Google Gemini generates an AI-powered answer.
+
+```mermaid
+flowchart TD
+    A["👤 User Question"] --> B["⚙️ n8n Automation<br/>Question Trigger"]
+    B --> C["🔍 Knowledge Retrieval<br/>Search Relevant Documents"]
+    C --> D["📚 Relevant Context<br/>Retrieved Text Chunks"]
+    D --> E["🤖 Google Gemini<br/>AI Processing & Response Generation"]
+    E --> F["💬 AI Answer"]
+    F --> G["👤 User"]
+
+    H["🗄️ Vector Database<br/>Knowledge Storage"] -.-> C
+    I["🧠 AI Embedding Model"] -.-> C
 ```
+
+### Workflow Components
+
+1. **User Question:** User submits a question through a chat interface.
+2. **n8n Automation:** Receives the question through a Chat Trigger or Webhook.
+3. **Knowledge Retrieval:** Searches the knowledge base for relevant information.
+4. **Relevant Context:** Retrieves the most relevant text chunks.
+5. **Google Gemini:** Analyzes the question and retrieved context to generate an answer.
+6. **AI Answer:** Returns a context-based response to the user.
+7. **User:** Receives the final AI-generated answer.
+
+**Purpose:** This RAG retrieval pipeline enables an AI chatbot to answer user questions using information from your own knowledge base.
+
 
 ---
 
