@@ -48,6 +48,7 @@ The system allows users to ask questions in natural language and receive answers
 
 The following diagram illustrates the complete AI-powered knowledge base workflow, from collecting knowledge sources to processing, embedding generation, and storing information for AI-powered retrieval.
 
+
 ```mermaid
 flowchart TD
     A["📚 Knowledge Source<br/>PDF, DOCX, Website & Google Sheets"] --> B["⚙️ Document Processing<br/>Extract & Clean Text"]
@@ -59,7 +60,16 @@ flowchart TD
     G["🔗 n8n Automation"] -.-> B
     G -.-> C
     G -.-> E
+
+    style A fill:#E1F5FE,stroke:#0288D1,stroke-width:2px,color:#01579B
+    style B fill:#E8EAF6,stroke:#3949AB,stroke-width:2px,color:#1A237E
+    style C fill:#FFF3E0,stroke:#FB8C00,stroke-width:2px,color:#E65100
+    style D fill:#F3E5F5,stroke:#8E24AA,stroke-width:2px,color:#4A148C
+    style E fill:#E8F5E9,stroke:#43A047,stroke-width:2px,color:#1B5E20
+    style F fill:#FCE4EC,stroke:#D81B60,stroke-width:2px,color:#880E4F
+    style G fill:#ECEFF1,stroke:#546E7A,stroke-width:2px,color:#263238
 ```
+
 
 ### Workflow Components
 
