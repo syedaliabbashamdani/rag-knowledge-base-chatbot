@@ -89,6 +89,7 @@ flowchart TD
 
 The following diagram illustrates how a user submits a question, n8n retrieves relevant information from the knowledge base, and Google Gemini generates an AI-powered answer.
 
+
 ```mermaid
 flowchart TD
     A["👤 User Question"] --> B["⚙️ n8n Automation<br/>Question Trigger"]
@@ -100,7 +101,18 @@ flowchart TD
 
     H["🗄️ Vector Database<br/>Knowledge Storage"] -.-> C
     I["🧠 AI Embedding Model"] -.-> C
+
+    style A fill:#E1F5FE,stroke:#0288D1,stroke-width:2px,color:#01579B
+    style B fill:#E8EAF6,stroke:#3949AB,stroke-width:2px,color:#1A237E
+    style C fill:#FFF3E0,stroke:#FB8C00,stroke-width:2px,color:#E65100
+    style D fill:#E8F5E9,stroke:#43A047,stroke-width:2px,color:#1B5E20
+    style E fill:#F3E5F5,stroke:#8E24AA,stroke-width:2px,color:#4A148C
+    style F fill:#E0F2F1,stroke:#00897B,stroke-width:2px,color:#004D40
+    style G fill:#E1F5FE,stroke:#0288D1,stroke-width:2px,color:#01579B
+    style H fill:#FFF9C4,stroke:#F9A825,stroke-width:2px,color:#795548
+    style I fill:#FCE4EC,stroke:#D81B60,stroke-width:2px,color:#880E4F
 ```
+
 
 ### Workflow Components
 
