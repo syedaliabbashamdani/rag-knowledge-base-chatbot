@@ -234,8 +234,12 @@ This automation can help businesses:
 - 🔄 Automate repetitive question-answering processes
 
 ---
+## 📚 Project Documentation
 
-https://github.com/syedaliabbashamdani/rag-knowledge-base-chatbot/blob/98041afb12622d0c0b06bd3bf44de242936a5c74/docs/PROJECT-WALKTHROUGH.md
+Read the complete [Project Walkthrough](https://github.com/syedaliabbashamdani/rag-knowledge-base-chatbot/blob/98041afb12622d0c0b06bd3bf44de242936a5c74/docs/PROJECT-WALKTHROUGH.md)
+to understand the workflow architecture, individual steps,
+technologies, and business applications.
+
 
 # 👨‍💻 My Role
 
