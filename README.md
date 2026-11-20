@@ -235,6 +235,8 @@ This automation can help businesses:
 
 ---
 
+https://github.com/syedaliabbashamdani/rag-knowledge-base-chatbot/blob/98041afb12622d0c0b06bd3bf44de242936a5c74/docs/PROJECT-WALKTHROUGH.md
+
 # 👨‍💻 My Role
 
 I designed, configured, and tested the automation workflow using n8n.
