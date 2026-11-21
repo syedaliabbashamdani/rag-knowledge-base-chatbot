@@ -1,3 +1,18 @@
+<p align="center">
+  <img src="screenshots/rag-knowledge-base-banner.png"
+       alt="RAG Knowledge Base Chatbot"
+       width="100%">
+</p>
+
+<h1 align="center">🧠 RAG Knowledge Base Chatbot</h1>
+
+<p align="center">
+  AI-Powered Knowledge Retrieval & Question Answering
+  <br>
+  Built with n8n and Google Gemini
+</p>
+
+---
 # 🧠 RAG Knowledge Base Chatbot
 
 > AI-powered knowledge base chatbot built with **n8n, Google Gemini, RAG, embeddings, and vector-based information retrieval.**
