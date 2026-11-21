@@ -9,13 +9,8 @@
 <p align="center">
   AI-Powered Knowledge Retrieval & Question Answering
   <br>
-  Built with n8n and Google Gemini
+  built with **n8n, Google Gemini, RAG, embeddings, and vector-based information retrieval.**
 </p>
-
----
-# 🧠 RAG Knowledge Base Chatbot
-
-> AI-powered knowledge base chatbot built with **n8n, Google Gemini, RAG, embeddings, and vector-based information retrieval.**
 
 ---
 
